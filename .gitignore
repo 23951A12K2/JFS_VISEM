@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+target/ 
+=======
+target/
+*.log
+*.class
+>>>>>>> b57d43b71f6056c5f71801cadfd5716926ac86b1
