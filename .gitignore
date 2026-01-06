@@ -1,7 +1,28 @@
-<<<<<<< HEAD
-target/ 
-=======
-target/
-*.log
-*.class
->>>>>>> b57d43b71f6056c5f71801cadfd5716926ac86b1
+# ===== Maven =====
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+
+# ===== Java =====
+**/*.class
+**/*.log
+**/*.jar
+**/*.war
+**/*.ear
+
+# ===== IDEs =====
+.idea/
+.vscode/
+**/*.iml
+**/.classpath
+**/.project
+**/.settings/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
